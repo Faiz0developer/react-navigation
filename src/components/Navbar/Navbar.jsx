@@ -108,11 +108,11 @@ const Navbar = () => {
           </div>
         )}
       </ul>
-      <div className="hamburger  duration-500" onClick={() => setOpen(false)}>
+      <div className="hamburger  duration-500">
         {open && (
           <div className="flex justify-between items-center">
             <div className="flex gap-3 items-center">
-              <FaBars size={25} />
+              <FaBars size={25} onClick={() => setOpen(false)} />
               <img
                 src="https://reactnavigation.org/img/spiro.svg"
                 alt="Navbar Image"
