@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(2, calc(50% - 4rem));
+  max-width: 1366px;
+  justify-content: center;
+  align-items: center;
+}
+.container div {
+  max-width: 36rem;
+}
+.navCom {
+  max-width: 1366px;
+}
+
+.p-content b:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    grid-template-columns: auto;
+  }
+}
