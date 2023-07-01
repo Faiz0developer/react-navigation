@@ -6,5 +6,5 @@ This is a landing page of well known navigation website known as 'React Navigati
 
 I made a clone of React Navigation website.
 
-Language : This UI is design using 'ReactJs' and decorate it using Tailwind css.
+Language use: I design its UI using 'ReactJs' and decorate it using Tailwind css.
 
